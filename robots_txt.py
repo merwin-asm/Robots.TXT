@@ -54,7 +54,7 @@ def remove_comments(txt):
     return txt_
 
 
-def disallowed(site, proxies):
+def disallowed(site, proxies=None):
     
     txt = get_robot_txt(site, proxies)
     txt = get_lines(txt)    
