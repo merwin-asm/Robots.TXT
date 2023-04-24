@@ -15,5 +15,6 @@ Better than the OG one for some reasons.
 ```
 import robots_txt
 
-res = disallowed("https://www.google.com/blablabla", proxy=None) # returns the dissallowed sites for google.com
+res = disallowed("https://www.google.com/blablabla", proxy=None) 
+# returns the disallowed sites for google.com
 ```
